@@ -4,10 +4,10 @@ int main() {
     int Age;
     char Hobby[50];
     scanf("%c", &Name);
-    printf("Name: &c/n", Name);
+    printf("Name: &s/n", Name);
     scanf("%d", &Age);
     printf("Age: %d/n", Age);
     scanf("%c", &Hobby);
-    printf("Hobby: %c", Hobby);
+    printf("Hobby: %s", Hobby);
     return 0;
 }
