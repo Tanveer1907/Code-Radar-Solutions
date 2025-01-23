@@ -5,6 +5,5 @@ int main() {
     if (a==b){
         printf("True");
     }
-   
     return 0;
 }
