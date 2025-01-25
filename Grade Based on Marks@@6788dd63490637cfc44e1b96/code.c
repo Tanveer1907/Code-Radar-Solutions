@@ -7,8 +7,5 @@ int main() {
     else if(80>a>=70){printf("C");}
     else if(70>a>=60){printf("D");}
     else if (60<a<=0){printf("F");}
-    else {
-        printf("Wrong entry");
-    }
     return 0;
 }
