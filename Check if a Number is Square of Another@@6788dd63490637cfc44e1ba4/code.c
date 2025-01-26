@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main() {
-    int a, b;
-    int c = a*a;
-    scanf("%d %d", &a, &b);
-    if(c == b){
+    int a, b, c;
+    scanf("%d %d %d", &a, &b, &c);
+    c = b*b;
+    if(c == b ){
         printf("Yes");
     }
     else{
