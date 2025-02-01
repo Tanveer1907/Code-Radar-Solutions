@@ -3,13 +3,13 @@ int main() {
     int a, b;
     char c;
     scanf("%d %d", &a, &b);
-    scanf("%c", &c);
+    scanf(" %c", &c);
     switch(c){
         case '+': printf("%d", a+b);break;
         case '-': printf("%d", a-b);break;
         case '*': printf("%d", a*b);break;
-        case '/': if (b!=0){printf("%d", a/b);break;
-        else{printf("error"); break;}}
+        case '/': if (b!=0) printf("%d", a/b);break;
+        elseprintf("error"); break;
         default: printf("error");
     }
     return 0;
