@@ -1,11 +1,4 @@
 #include <stdio.h>
-
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
-
-int main() {
-    printf("%s"#include <stdio.h>
 int main() {
     int n;
     scanf("%d", &n);
@@ -18,7 +11,5 @@ int main() {
         }
         printf("\n");
     }
-    return 0;
-}, welcome());
     return 0;
 }
