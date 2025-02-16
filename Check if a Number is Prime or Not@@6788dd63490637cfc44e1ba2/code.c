@@ -8,11 +8,11 @@ int main(){
             flag = 1;
             break;
         }
-    if (flag==0){
-        printf("Prime");
+if (flag==0){
+    printf("Prime");
     }
-    else{
-        printf("Not Prime");
+else{
+    printf("Not Prime");
     }
     }
     return 0;
