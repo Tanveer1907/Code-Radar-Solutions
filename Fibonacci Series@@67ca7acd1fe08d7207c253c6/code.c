@@ -3,8 +3,9 @@ int fibonacciSeries(int n) {
     printf("%d %d", a , b);
     for ( int i = 1; i <n; i++){
     c = a+b;
+    printf("%d ", c);
     a = b;
     b = c;
-    printf("%d ", c);
+    
 }
 }
